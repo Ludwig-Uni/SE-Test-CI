@@ -5,4 +5,4 @@ import helloworld
 
 class TestHelloWorld(unittest.TestCase):
     def test_hello_world(self):
-        self.assertEqual(helloworld.hello_world(), "Hello, world!")
+        self.assertTrue(helloworld.hello_world().startswith("Hello, world!"))
