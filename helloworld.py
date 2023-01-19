@@ -2,7 +2,7 @@
 
 def hello_world():
     """Returns a hello world string."""
-    return "Hello, world!"
+    return "Hello, world! :D"
 
 
 if __name__ == '__main__':
